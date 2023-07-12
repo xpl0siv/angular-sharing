@@ -59,7 +59,7 @@ export class ApproveDirective {
         this.el.nativeElement.classList.add($signal);
         break;
       default:
-        console.log('Signla not found: %s', $signal);
+        console.log('Signal not found: %s', $signal);
     }
     return $signal;
   }
