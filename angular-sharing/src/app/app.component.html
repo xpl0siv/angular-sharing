@@ -1,0 +1,15 @@
+<h2>
+  {{ title }}
+</h2>
+<div class="content">
+  <span>angular-sharing app is running!</span>
+</div>
+
+<input
+  approve
+  type="text"
+  (childSignalControl)="captureSignalControl($event)"
+  (input)="changeInputValue($event)"
+/>
+
+<button (click)="changeSignal()">Change Signal</button>
